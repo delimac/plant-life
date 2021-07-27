@@ -50,11 +50,14 @@ nav a {
 
 main {
   background-color: #ffffff;
+  transition: transform 0.5s;
 
   min-height: 100vh;
 
   position: relative;
   z-index: 1;
+}
 
+main.open {
   transform: translateX(240px);
 }
