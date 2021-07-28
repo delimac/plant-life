@@ -77,3 +77,36 @@ a.toggle-nav img {
   margin: 0 5px 0 0;
   vertical-align: middle;
 }
+
+section {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+section div {
+  width: 350px;
+}
+
+section div.content {
+  margin: 0 0 0 60px;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-size: 48px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a.button {
+  background-color: #00b98d;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  display: inline-block;
+}
