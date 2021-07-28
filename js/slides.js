@@ -18,4 +18,5 @@ slideArea.addEventListener("click", function () {
 
   // pick the right image
   images[currentSlide].style.zIndex = z
+  images[currentSlide].style.animation = "fade 0.5s"
 })

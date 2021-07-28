@@ -1,5 +1,10 @@
 @import url("_base.css");
 
+@keyframes fade {
+  0% { opacity: 0 };
+  100% { opacity: 1 };
+}
+
 @font-face {
   font-family: "Young Serif" ;
   src: url(../fonts/youngserif.woff2), url(../fonts/youngserif.woff);
@@ -125,3 +130,4 @@ div.slides img {
 div.slides img:first-child {
   z-index: 1;
 }
+
