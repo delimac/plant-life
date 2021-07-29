@@ -122,6 +122,7 @@ div.slides {
 }
 
 div.slides img {
+  transition: transform 0.5s;
   position: absolute;
   top: 0;
   left: 0;
