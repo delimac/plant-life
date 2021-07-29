@@ -29,8 +29,8 @@ slideArea.addEventListener("click", function () {
 // when user hovers over the slide area, put all images in a random place
 slideArea.addEventListener("mouseover", function () {
   images.forEach(image => {
-    const x = 100 * Math.random() - 50
-    const y = 100 * Math.random() - 50
+    const x = 25 * (Math.floor(Math.random() * 5)) - 50 
+    const y = 25 * (Math.floor(Math.random() * 5)) - 50 
 
     image.style.transform = `translate(${x}px, ${y}px)`
   })
