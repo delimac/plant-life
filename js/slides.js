@@ -36,3 +36,9 @@ slideArea.addEventListener("mouseover", function () {
   })
 })
 
+// when user moves pointer away, put images back in original position
+slideArea.addEventListener("mouseout", function () {
+  images.forEach(image => {
+    image.style.transform = ""
+  })
+})
